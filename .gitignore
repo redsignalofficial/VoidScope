@@ -1,0 +1,4 @@
+# Analysis output
+out/
+*.tmp
+.DS_Store
