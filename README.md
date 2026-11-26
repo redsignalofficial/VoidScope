@@ -1,6 +1,10 @@
 # VoidScope
 
-VoidScope is a specialized Luau sandbox, analysis engine, and turnkey deobfuscator designed for inspecting and devirtualizing protected Luau scripts and Roblox payloads.
+> Specialized Luau sandbox, VM devirtualizer, and turnkey deobfuscation framework for analyzing protected Luau and Roblox scripts.
+
+## About
+
+**VoidScope** provides a secure, instrumented analysis runtime for analyzing heavily obfuscated Luau scripts (including virtualized samples like Luraph). It hooks the bytecode execution loop at runtime to reconstruct clean constant pools, extract and split all nested prototypes into standalone modular files, and intercept network activity via an isolated local C2 stub without executing untrusted code on live game servers.
 
 ## Features
 
